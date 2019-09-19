@@ -2,10 +2,10 @@
 
                     $active_group = 'default';
                     $active_record = true;
-                    $db['default']['hostname'] = 'localhost';
-                    $db['default']['username'] = 'root';
-                    $db['default']['password'] = '';
-                    $db['default']['database'] = 'lms';
+                    $db['default']['hostname'] = 'us-cdbr-iron-east-02.cleardb.net';
+                    $db['default']['username'] = 'b104431ff994bc';
+                    $db['default']['password'] = '54bc10a6';
+                    $db['default']['database'] = 'lheroku_bb4e87c87a77d4dms';
                     $db['default']['dbdriver'] = 'mysql';
                     $db['default']['dbprefix'] = '';
                     $db['default']['pconnect'] = TRUE;
