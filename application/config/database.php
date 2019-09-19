@@ -5,7 +5,7 @@
                     $db['default']['hostname'] = 'us-cdbr-iron-east-02.cleardb.net';
                     $db['default']['username'] = 'b104431ff994bc';
                     $db['default']['password'] = '54bc10a6';
-                    $db['default']['database'] = 'lheroku_bb4e87c87a77d4dms';
+                    $db['default']['database'] = 'heroku_bb4e87c87a77d4d';
                     $db['default']['dbdriver'] = 'mysql';
                     $db['default']['dbprefix'] = '';
                     $db['default']['pconnect'] = TRUE;
