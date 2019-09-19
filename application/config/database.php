@@ -6,7 +6,7 @@
                     $db['default']['username'] = 'b104431ff994bc';
                     $db['default']['password'] = '54bc10a6';
                     $db['default']['database'] = 'heroku_bb4e87c87a77d4d';
-                    $db['default']['dbdriver'] = 'mysql';
+                    $db['default']['dbdriver'] = 'mysqli';
                     $db['default']['dbprefix'] = '';
                     $db['default']['pconnect'] = TRUE;
                     $db['default']['db_debug'] = TRUE;
