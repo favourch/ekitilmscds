@@ -3,6 +3,6 @@
 	<b><?php  echo $this->config->item("product_short_name");?></b>
 	<?php echo $this->config->item("product_version");?> - 
 	<?php echo '<a target="_BLANK" href="'.site_url().'"><b>'.$this->config->item("institute_address1").'</b></a>'; ?>
-U2NyaXB0IGRvd25sb2FkZWQgZnJvbSBDT0RFTElTVC5DQw==
+
 	</div>
 </footer>
