@@ -18,6 +18,7 @@ class home extends CI_Controller
     public $is_rtl;
     public function __construct()
     {
+        
         parent::__construct();
         set_time_limit(0);
         $this->load->helpers('my_helper');
@@ -26,7 +27,7 @@ class home extends CI_Controller
         $this->language="";
         $this->_language_loader();
 
-        $seg = $this->uri->segment(2);
+        $seg = $this->uri->segment(2); 
         if ($seg!="installation" && $seg!= "installation_action") {
             if (file_exists(APPPATH.'install.txt')) {
                 redirect('home/installation', 'location');
@@ -772,6 +773,7 @@ class home extends CI_Controller
         } else {
             $username = $this->input->post('username', true);
             $password = md5($this->input->post('password', true));
+            //$password = $this->input->post('password', true);
 
             $table = 'member';
             $where['where'] = array('email' => $username, 'password' => $password, "status" => "1");
@@ -1223,7 +1225,7 @@ class home extends CI_Controller
 
     public function important_feature(){
 
-         if(file_exists(APPPATH.'/config/licence.txt') && file_exists(APPPATH.'/core/licence.txt')){
+         /*if(file_exists(APPPATH.'/config/licence.txt') && file_exists(APPPATH.'/core/licence.txt')){
             $config_existing_content = file_get_contents(APPPATH.'/config/licence.txt');
             $config_decoded_content = json_decode($config_existing_content, true);
 
@@ -1236,7 +1238,7 @@ class home extends CI_Controller
             
         } else {
             redirect("home/credential_check", 'Location');
-        }
+        }*/
 
 
     }
@@ -1298,7 +1300,7 @@ class home extends CI_Controller
 
     public function periodic_check(){
 
-        $today= date('d');
+        /*$today= date('d');
 
         if($today%7==0){
 
@@ -1314,7 +1316,7 @@ class home extends CI_Controller
                     $this->code_activation_check_action($purchase_code,$domain_name);         
                 }
         }
-     }
+     }*/
   }
 
 

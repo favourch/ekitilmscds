@@ -1,21 +1,22 @@
 <?php 
 $config['default_page_url'] = 'page/blank';
-$config['product_name'] = 'LMS';
-$config['product_short_name'] = 'LMS' ;
-$config['product_version'] = ' v2.6.2 ';
+$config['product_name'] = 'Ekiti Digital Library';
+$config['product_short_name'] = 'EDL' ;
+$config['product_version'] = ' v1.0.0  ';
 
-$config['institute_address1'] = 'webtech';
-$config['institute_address2'] = 'lucknow india';
-$config['institute_email'] = 'rajshrisingh59@gmail.com';
-$config['institute_mobile'] = '9044648583';
+$config['institute_address1'] = 'Ekiti State Public Library';
+$config['institute_address2'] = 'Old Governor\'s Office, Okesa';
+$config['institute_email'] = 'fchukwuedo@gmail.com';
+$config['institute_mobile'] = '08037834276';
+
 $config['developed_by'] = ' XerOne IT ';
-$config['developed_by_href'] = 'http://xeroneit.net';
+$config['developed_by_href'] = 'Favour Chukwuedo';
 $config['developed_by_title'] = 'we think of your needs';
 $config['developed_by_prefix'] = 'Developed by' ;
-$config['support_email'] = 'support@xeroneit.net' ;
-$config['support_mobile'] = '+88 01729 853 645' ;
-$config['time_zone'] = '' ;
+$config['support_email'] = 'fchukwuedo@gmail.com' ;
+$config['support_mobile'] = '+2348037834276' ;
+$config['time_zone'] = 'Africa/Lagos';
 $config['currency'] = 'NGN';
 $config['language'] = 'english';
-$config['sess_use_database'] = TRUE;
+$config['sess_use_database'] = true;
 $config['sess_table_name'] = 'ci_sessions';
